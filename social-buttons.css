@@ -25,7 +25,7 @@
 
 .btn-facebook:hover,
 .btn-facebook:focus,
-.btn-facebook:active,
+.btn-facebook:activer,
 .btn-facebook.active,
 .btn-facebook.disabled,
 .btn-facebook[disabled] {
@@ -56,6 +56,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
+
+/* Custom made btn soundcloud */
+
+
+
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active,
@@ -70,6 +75,39 @@
 .btn-twitter:active,
 .btn-twitter.active {
   background-color: #01538d \9;
+}
+
+.btn-soundcloud {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgb(255,95,0);
+  *background-color: rgb(255,95,0);
+  background-image: -moz-linear-gradient(top,  rgb(255,100,0);,  rgb(255,90,0););
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from( rgb(255,100,0);), to( rgb(255,90,0);));
+  background-image: -webkit-linear-gradient(top,  rgb(255,100,0),  rgb(255,90,0));
+  background-image: -o-linear-gradient(top,  rgb(255,100,0),  rgb(255,90,0));
+  background-image: linear-gradient(to bottom, rgb(255,100,0),  rgb(255,90,0));
+  background-repeat: repeat-x;
+  border-color: #0271bf #0271bf #014473;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2daddc', endColorstr='#ff0271bf', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-soundcloud:hover,
+.btn-soundcloud:focus,
+.btn-soundcloud:active,
+.btn-soundcloud.active,
+.btn-soundcloud.disabled,
+.btn-soundcloud[disabled] {
+  color: #ffffff;
+  background-color: rgb(255,100,0);
+  *background-color: rgb(255,100,0);
+}
+
+.btn-soundcloud:active,
+.btn-soundcloud.active {
+  background-color: rgb(255,100,0) \9;
 }
 
 .btn-github {
